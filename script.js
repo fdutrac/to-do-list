@@ -14,6 +14,7 @@ function addItem() {
     else {
         list.push(input.value);
         render(input.value);
+        input.value = null
     }
 }
 function render(text) {
